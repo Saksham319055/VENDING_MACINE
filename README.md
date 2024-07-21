@@ -134,3 +134,15 @@ module vending_machine_tb;
   end
   always #5 clk=~clk;
 endmodule
+
+```
+# Output.
+
+
+-1 Case: Rs5 is added as input cosecutively after every 5sec.
+
+![Screenshot (338)](https://github.com/user-attachments/assets/40471112-7796-4d29-aba8-3def1418dbdb)
+
+-2 Case: Rs5 is added first then another Rs5 after 5sec and at last Rs10 after another 5sec.
+
+![Screenshot (339)](https://github.com/user-attachments/assets/1cbe9f71-857e-4e53-9dbd-e6df92f8cb9e)
